@@ -1,1 +1,1 @@
-<h2>Thanks, you paid <strong>$5.00</strong>!</h2>
+<h2>Thanks, you paid <%= link_to "#{number_to_currency current_order.subtotal}", cart_path, class: "btn btn-link" %> </h2>

@@ -7,14 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create! id: 1, name: "Arroz Congris", description: "Rico arroz gris", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food1.jpeg", price: 15.50, active: true
-Product.create! id: 2, name: "Hamburger", description: "Carne molida hecha en casa", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food2.jpg", price: 9.99, active: true
-Product.create! id: 3, name: "Clam Chowder", description: "Directamente desde Boston", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food3.jpeg", price: 10.00, active: true
-Product.create! id: 4, name: "Hot Dogs", description: "Bien jugosos", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food4.jpeg", price: 10.00, active: true
-Product.create! id: 5, name: "Filete de Mero", description: "Empanado y rebozado", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food5.jpeg", price: 15.00, active: true
-Product.create! id: 6, name: "Pizza", description: "Extra queso y masa fina", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food6.jpeg", price: 6.50, active: true
-Product.create! id: 7, name: "Brisket", description: "Carne guisada", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food7.jpeg", price: 7.50, active: true
-Product.create! id: 8, name: "Arepas", description: "Ricas arepas Venezolanas", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/food8.jpeg", price: 8.0, active: true
+Product.create! id: 1, name: "Sandwich", description: "Rico arroz gris", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_02101.jpg", price: 15.50, active: true
+Product.create! id: 2, name: "Arepas", description: "Carne molida hecha en casa", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_32061.jpg", price: 9.99, active: true
+Product.create! id: 3, name: "Sandwich Pernil", description: "Directamente desde Boston", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_41821.jpg", price: 10.00, active: true
+Product.create! id: 4, name: "Chuleta Frita", description: "Bien jugosos", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_73101.jpg", price: 10.00, active: true
+Product.create! id: 5, name: "Lasagna", description: "Empanado y rebozado", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_89181.jpg", price: 15.00, active: true
+Product.create! id: 6, name: "Arroz Guisado", description: "Extra queso y masa fina", pic: "https://s3-us-west-2.amazonaws.com/chamarestaurant/IMG_97411.jpg", price: 6.50, active: true
+
 
 
 OrderStatus.delete_all

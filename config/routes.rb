@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :charges
   root to: "products#index"
 
-  match '/contacts',     to: 'contacts#new',             via: 'get'
+  get "contactus" => "pages#contactus"
+
+match '/contacts',     to: 'contacts#new',             via: 'get'
 resources "contacts", only: [:new, :create]
 end
